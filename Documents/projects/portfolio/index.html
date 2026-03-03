@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Siddhesh | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="header" id="top">
+    <nav class="nav container">
+      <a class="logo" href="#top">Siddhesh<span>.</span></a>
+
+      <button class="hamburger" aria-label="Open Menu" id="menuBtn">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="navlinks" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact" class="btn small">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero container">
+      <div class="hero-text">
+        <p class="tag">AI & Data Science Student</p>
+        <h1>Hi, I’m <span class="accent">Siddhesh</span> 👋</h1>
+        <p class="subtitle">
+          I build projects in <b>AI</b>, <b>Data Science</b> and modern <b>Web Development</b>.
+          I love turning ideas into real, working applications.
+        </p>
+
+        <div class="cta">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn ghost" href="#contact">Hire / Collaborate</a>
+        </div>
+
+        <div class="quick-info">
+          <div class="chip">📍 India</div>
+          <div class="chip">💻 Open to Internships</div>
+          <div class="chip">⚡ Fast Learner</div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="profile">
+          <div class="avatar" aria-hidden="true">SP</div>
+          <div>
+            <h3>Siddhesh</h3>
+            <p class="muted">AI & DS | Web Dev | Projects</p>
+          </div>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <h4 id="statProjects">6+</h4>
+            <p class="muted">Projects</p>
+          </div>
+          <div class="stat">
+            <h4>2027–28</h4>
+            <p class="muted">Graduation</p>
+          </div>
+          <div class="stat">
+            <h4>Top</h4>
+            <p class="muted">Focus: AI/DS</p>
+          </div>
+        </div>
+
+        <div class="hero-links">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="#contact">Email</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section container" id="about">
+      <div class="section-title">
+        <h2>About</h2>
+        <p class="muted">A quick intro about me.</p>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <h3>Who I am</h3>
+          <p>
+            I’m an AI & Data Science student who enjoys building real-world solutions using
+            machine learning, data analysis, and full-stack web development.
+          </p>
+          <p>
+            My goal is to work on impactful products — from smart dashboards to AI-powered platforms.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>What I do</h3>
+          <ul class="list">
+            <li>Build web apps (HTML, CSS, JavaScript) and APIs</li>
+            <li>Work with data: cleaning, analysis, visualization</li>
+            <li>Explore ML concepts & deploy small AI features</li>
+            <li>Write clean code + keep improving</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section container" id="skills">
+      <div class="section-title">
+        <h2>Skills</h2>
+        <p class="muted">Tools and technologies I work with.</p>
+      </div>
+
+      <div class="grid three">
+        <div class="card">
+          <h3>Web</h3>
+          <div class="badges">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">Git/GitHub</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Data & AI</h3>
+          <div class="badges">
+            <span class="badge">Python</span>
+            <span class="badge">Pandas</span>
+            <span class="badge">NumPy</span>
+            <span class="badge">ML Basics</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Other</h3>
+          <div class="badges">
+            <span class="badge">Problem Solving</span>
+            <span class="badge">Communication</span>
+            <span class="badge">Teamwork</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section container" id="projects">
+      <div class="section-title">
+        <h2>Projects</h2>
+        <p class="muted">A few things I’ve built (replace with yours).</p>
+      </div>
+
+      <div class="grid three">
+        <article class="card project">
+          <div class="project-top">
+            <h3>SmartFood AI</h3>
+            <span class="pill">AI + Impact</span>
+          </div>
+          <p class="muted">
+            Concept platform to reduce food waste by connecting restaurants, households, and NGOs.
+          </p>
+          <div class="badges">
+            <span class="badge">AI</span>
+            <span class="badge">Data</span>
+            <span class="badge">Dashboard</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link">Live</a>
+            <a href="#" class="link">Code</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="project-top">
+            <h3>Weather App</h3>
+            <span class="pill">Web</span>
+          </div>
+          <p class="muted">
+            Simple weather app using an API with search + current conditions UI.
+          </p>
+          <div class="badges">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">JS</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link">Live</a>
+            <a href="#" class="link">Code</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="project-top">
+            <h3>Stopwatch + Laps</h3>
+            <span class="pill">JS</span>
+          </div>
+          <p class="muted">
+            Stopwatch with start/pause/reset and lap history.
+          </p>
+          <div class="badges">
+            <span class="badge">DOM</span>
+            <span class="badge">JS</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link">Live</a>
+            <a href="#" class="link">Code</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section container" id="education">
+      <div class="section-title">
+        <h2>Education</h2>
+        <p class="muted">Your academic background.</p>
+      </div>
+
+      <div class="card timeline">
+        <div class="time-item">
+          <div class="dot"></div>
+          <div>
+            <h3>B.E. Artificial Intelligence & Data Science</h3>
+            <p class="muted">Expected: 2027–2028</p>
+            <p>Key areas: ML, Statistics, Data Engineering, Web Development</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section container" id="contact">
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p class="muted">Let’s connect.</p>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <h3>Message me</h3>
+          <form class="form" id="contactForm">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+            </label>
+
+            <button class="btn" type="submit">Send</button>
+            <p class="muted tiny" id="formMsg"></p>
+          </form>
+        </div>
+
+        <div class="card">
+          <h3>Details</h3>
+          <p class="muted">Replace these with your real links.</p>
+
+          <div class="contact-links">
+            <a href="mailto:you@example.com">📩 you@example.com</a>
+            <a href="https://github.com/" target="_blank" rel="noreferrer">💻 GitHub</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">🔗 LinkedIn</a>
+          </div>
+
+          <div class="note">
+            <p><b>Tip:</b> Add a PDF resume and link it here:</p>
+            <code>resume.pdf</code>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p class="muted">© <span id="year"></span> Siddhesh. All rights reserved.</p>
+        <a class="to-top" href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
